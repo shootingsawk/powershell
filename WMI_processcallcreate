@@ -1,0 +1,1 @@
+Invoke-WmiMethod-Class Win32_Process -EnableAllPrivileges -Impersonation 3 -Authentication Packetprivacy -Name Create -Argumentlist "calc.exe" -Credential $Credential -ComputerName blah
